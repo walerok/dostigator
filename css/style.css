@@ -1,0 +1,71 @@
+@charset "utf-8";
+*{margin: 0; padding:0;}
+body{ margin: auto}
+#maket { width: 100%;
+margin:0;
+}
+#header{
+width:100%; height:180px; background:#ff6d00;  
+}
+#logo{
+width: 800px; height: 120px;
+margin:auto;
+ /*margin-left: 200px; 
+ margin-right: 200px;*/
+ 
+ background:url(../images/logo_02.gif) no-repeat;
+ padding-top: 60px;
+ text-align:center;
+ }
+ #logo h2{
+  font: bold 48px Arial, Helvetica, sans-serif;
+ 
+ }
+  #logo h3{
+  font:  24px Arial, Helvetica, sans-serif;
+ 
+ }
+#conTitle,#conVideo  {
+width: 800px; 
+margin:auto;
+}
+#conTitle h2{
+ font: 36px Tahoma; text-align: center;
+
+}
+#conVideo {
+min-height:250px;
+}
+.tabVideo, .tabVideo th{ border: none; height: 200px; }
+.tabVideo th { vertical-align:top}
+#conReg{width:290px; text-align:left; font: 14px Tahoma; margin-left: 10px;}
+.Regname{ border:none ; background:url(../images/pole_03.gif) no-repeat;
+height: 40px; width: 300px; margin-top: 10px; padding-left: 15px; margin-left: 10px;
+}
+#RegSubm{width: 300px; margin-top: 10px; height: 60px; background:url(../images/formel_05.gif ); border: none;
+}
+#footer{
+width:100%; height:180px; background:#ff6d00;  
+}
+#contKurs {
+background:#e6e6e6; width:100%; margin-top: 30px; margin-bottom: 30px;
+padding-top: 20px; padding-bottom: 20px;
+}
+#contKurs h2{
+
+
+text-align: center;
+
+font: 30px Tahoma;}
+#contKurs h3{
+
+margin-left: 200px; margin-top: 20px;
+font: 18px Tahoma;
+}#conOtziv { padding-bottom: 40px;
+}
+.oF { background: #ffea98; margin:auto; width: 800px; font: 14px Arial, Helvetica, sans-serif; margin-top: 20px;
+padding: 7px;
+
+}
+.oF h3{ font-style:italic;}
+#conReg1{ margin: 30px; padding-left: 220px; width:300px;}
